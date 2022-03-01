@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cropando a Imagem</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 750px)" srcset="spiderman-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="spiderman-m.png" type="image/png">
+        <img src="spiderman-g.png" alt="spiderman-g">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Aprendendo a reproduzir Áudio no HTML</p>
+  <audio preload="metadata" autoplay controls loop>
+      <source src="midia/meuaudio.mp3.mp3" type="audio/mpeg">
+      <p>Download para o <a href="midia/meuaudio.mp3.mp3"></a>Audio, caso não faça o download</p>
+  </audio>
+</body>
+</html>
